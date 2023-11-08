@@ -24,7 +24,7 @@
 </body>
 </html>
     <div class="menu">
-    <a href="index.php">Início</a>
+    <a href="index.php">Home</a>
     <a href="?pg=catalogos">Catálogos</a>
     <a href="?pg=fazermeupedido">Fazer meu pedido</a>
     <a href="?pg=avaliacoes"> Avaliações</a>
