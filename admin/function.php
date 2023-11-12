@@ -8,7 +8,7 @@ $db_name = "projetodoceria";
 //Conexão com o banco de dados
 $connect = mysqli_connect($host, $db_user, $db_pass, $db_name);
 
-//O comando só sera ativado se for enviado o formulário através do post acessar e as variaveis não estejam vazias//
+//O comando só sera desparado se for enviado o formulário através do post acessar e as variaveis não estejam vazias//
 function login($connect){
     if (isset($_POST['acessar'])AND !empty($_POST['email'])AND !
     empty($_POST['senha'])){
