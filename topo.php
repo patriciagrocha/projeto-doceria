@@ -9,6 +9,7 @@
             display: block; /* Garante que cada imagem esteja em sua própria linha */
             width: 1521px;
             height: 200PX;
+            background-color: #601616;
             }
     </style>
 </head>
