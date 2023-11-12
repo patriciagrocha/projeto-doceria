@@ -18,7 +18,9 @@
         </section>
         <nav>
             <div>
-                <a href ="painel.php">Painel</a> 
+                <a href ="painel.php">Painel</a>
+                <a href ="users.php">Gerenciar Usuários</a>
+                <a href = "logout.php">Sair</a>
             </div>
         </nav>
         <section class="container-table">
