@@ -21,7 +21,7 @@ if(!$insert){
 }else{
    echo "<h3>Produto cadastrado com sucesso!</h3><br>";
    echo "<a href='inserir.php'>Cadastrar Novamente</a><br>";
-   echo "<a href='listar.php'>Listar produtos</a>";
+   echo "<a href='index.php'>Listar produtos</a>";
 }
 
 }
