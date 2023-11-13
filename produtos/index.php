@@ -17,7 +17,6 @@ include_once("../topo.php");
 
     $sql = "SELECT * FROM produtos ORDER BY id";
     $consulta = mysqli_query($conexao, $sql);
-    $produtos = mysqli_num_rows($consulta);
     ?>
     <div class="card">
       <div class="card-header d-flex justify-content-between align-items-center">
@@ -40,15 +39,15 @@ include_once("../topo.php");
       while ($dados = mysqli_fetch_array($consulta)) { ?>
 
         <tr>
-          <td><?= $dados['ID']; ?></td>
-          <td><?= $dados['PRODUTO']; ?></td>
-          <td><?= $dados['DESCRICAO']; ?></td>
-          <td>R$ <?= $dados['PRECO']; ?></td>
-          <td><a class="btn btn-primary" href="?pg=alterar.php&id=<?= $dados['ID']; ?>">Alterar</a></td>
+          <td><?= $dados['id']; ?></td>
+          <td><?= $dados['produto']; ?></td>
+          <td><?= $dados['descricao']; ?></td>
+          <td>R$ <?= $dados['preco']; ?></td>
+          <td><a class="btn btn-primary" href="alterar.php?id=<?= $dados['id']; ?>">Editar</a></td>
           <!-- <td><a href="inserir.php&id=1">ALTERAR</a></td> -->
 
           <td>
-            <a class="btn btn-danger" href="javascript:confirmaExclusao('excluir.php?&id=<?= $dados['ID']; ?>')" class="ask">
+            <a class="btn btn-danger" href="deletar.php?&id=<?= $dados['id']; ?>" class="ask">
               Excluir
             </a>
           </td>
@@ -62,6 +61,7 @@ include_once("../topo.php");
 </body>
 
 </html>
+
 <?php
 include_once("../rodape.php");
 ?>
