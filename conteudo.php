@@ -1,66 +1,76 @@
-<!DOCTYPE html>
-<html>
+<div>
+
 <head>
-    <title>Exibir Imagem em PHP</title>
-    <style>
-        /* Estilos para o corpo da página */
-        body {
-            font-family: Arial,sans-serif;
-            color: white;
-            margin: 0;
-            padding: 0;
-            background-color: rgb(96, 25, 25);
-        }
+  <style>
+    body{
+      /*imagem da textura do fundo*/
+      background-image: url("image 3.png")
+    }
+    .produto{
+      /*estilo das 3 imagens do final da página*/
+    display: flex;
+    border-top: none;
+    padding-top: 0;
+}
 
-        .h1 {
-            font-size: 20px;
-            font-family: "Roboto";
-            text-align: center;
-            border-top: 2px solid white;
-        }
+.prod{
+   flex: 1;
+   margin: -5px;
+   text-align: center;
+}
 
-        /* Estilos para a imagem */
-        .img {
-            float: left; /* Alinha a imagem à esquerda */
-            height: 350px;
-            width: 300px;
-            margin-right: 20px; /* Adiciona espaço à direita da imagem */
-        }
+.prod img{
+   max-width: 50%;
+   margin: center;
+}
+#BotaoCatalogo{
+/*botão escrito "acesse nosso catálogo"*/
+  color: #480707;
+  background: #DECAB9;
+  margin-left: 44%;
+  margin-bottom: 5px;
+  text-aling: center;
+  border: none;
+}
+#bolotopo1{
+  width: 100%;
+  margin-top: -15px;
+  margin-bottom: 200px;
+  
+}
 
-        .imgs {
-            height: 100px;
-            width: 120px;
-            margin-right:15px;
-        }
-
-        .centralizaimgs{
-            text-align: center;
-            margin-left: 0px;
-        }
-
-        /* Estilos para o texto */
-        .texto {
-            font-family: Arial, sans-serif;
-            font-size: 21px;
-            font-weight: 500;
-            text-align: left; /* Alinha o texto à esquerda */
-            margin-left: 280px; /* Adiciona espaço à esquerda da imagem */
-        }
-
-    </style>
+.especialidade{
+  color: black;
+  text-aling: center;
+  margin-left: 41%;
+  margin-top: 5px;
+}
+  </style>
 </head>
 <body>
-    <div class="h1">
-        <h1> Quem é a Doce Appetit?</h1>
-    </div>
-    <img src="imgs/cakerapha.jpg" class="img">
-        <div class="texto"><p>
-            A Doce Appetit surgiu com a intenção de estar presente nos melhores momentos de sua vida. Deixando cada segundo especial ainda mais doce e memorável para você e as pessoas que ama! Desde março de 2023, através das vendas de Ovos de Páscoa Artesanais a Doce Appetit vem adoçando as casas dos moradores de João Pessoa.<br><br>
-            <div class="centralizaimgs">
-                <img src= "imgs/ovokids2.jpg" class="imgs"> <img src="imgs/ovomaracuja.jpg" class="imgs"> <img src="imgs/ovooreo.jpg" class="imgs"> <img src="imgs/capa2.jpg" class="imgs"> <img src="imgs/ninho.jpg" class="imgs">
-            </div>
-            <br> E temos uma NOVIDADE!!!!! A partir desse mês(Setembro) a Doce Appetit estará oferecendo serviços de encomenda de Bolos Personalizados cobertos com a melhor cobertura do mundo e Doces Gourmet feitos com a maior qualidade que você pode imaginar exclusivamente para nossos clientes. <br> Dê uma olhada nos nossos novos catálogos e se esbalde!
+  <img id="bolotopo1" src="imgs/hq720 1.png"><br>
+  <h3 class="especialidade">Conheça nossas especialidades</h3>
+  
+ <div class="produto">
+    <span class="prod">
+        <img src="imgs/IMG-20231108-WA0016.jpg" title="Ovo de páscoa">
+        <p>
         </p>
-    </div>
+    </span>
+    <span class="prod">
+        <img src="imgs/IMG-20231108-WA0017.jpg" title="Bolo">
+        <p>
+        </p>
+    </span>
+    <span class="prod">
+        <img src="imgs/IMG-20231108-WA0018.jpg" title="Brigadeiros">
+        <p>
+        </p>
+    </span><br>
+ </div>
+  <div>
+    <input id="BotaoCatalogo" type="button" value="Acesse nosso Catálogo">
+  </div>
 </body>
-</html>
+
+</div>
