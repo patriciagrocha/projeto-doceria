@@ -100,7 +100,7 @@ li a:hover:not(.active) {
 </head>
 <div id="menu">
     <ul class="menu">
-    <img class="logo" src="imgs/desing.png">
+    <img class="logo" src="desing.png">
      <li id="avaliacoes"><a href="?pg=avaliacoes">Fale conosco</a></li>
      <li id="catalogo" ><a href="?pg=catalogos">Catálogo</a></li>
      <li id="sobre"><a href="?pg=fazermeupedido">Sobre mim</a></li>
