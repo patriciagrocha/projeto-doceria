@@ -29,7 +29,7 @@
   background: #DECAB9;
   margin-left: 44%;
   margin-bottom: 5px;
-  text-aling: center;
+  text-align: center;
   border: none;
 }
 #bolotopo1{
@@ -41,7 +41,7 @@
 
 .especialidade{
   color: black;
-  text-aling: center;
+  text-align: center;
   margin-left: 41%;
   margin-top: 5px;
 }
