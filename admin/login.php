@@ -1,7 +1,6 @@
 <?php require_once "function.php";
 if(isset($_POST['acessar'])){
-    login($connect);
-}
+    login($connect);}
 ?>
 <!doctype html>
 <html lang="pt-br">
@@ -11,7 +10,6 @@ if(isset($_POST['acessar'])){
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css">
-  <link rel ="stylesheet" href="reset.css">
   <title>Doce Appetit - Login</title>
 </head>
 <body>

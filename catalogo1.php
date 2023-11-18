@@ -1,79 +1,87 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <div>
-    <head>
-      <style>
-        .menu {
-          /* Tudo do menu, configuração geral */
-          height: 50px; /* Altura do topo */
-          width: 100%;
-          list-style-type: none; /* Remover contador de números da lista */
-          margin-top: 0; /* Espaço entre limite de cima e o topo */
-          padding: 10; /* Altura do topo */
-          overflow: hidden;
-          background-color: #601616;
-          display: flex; /* Adiciona display flex para centralizar os itens */
-          justify-content: center; /* Centraliza os itens horizontalmente */
-          align-items: center; /* Centraliza os itens verticalmente */
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Imagens</title>
+    <style>
+        /* Estilo para formatar as imagens */
+        .cabeçalho {
+            display: block; /* Garante que cada imagem esteja em sua própria linha */
+            width: 1521px;
+            border-bottom: 0.5px solid white;
         }
-
-        li {
-          /* Itens da lista (opções do menu) */
-          text-align: center;
-        }
-
-        li a {
-          /* Links dentro dos itens da lista */
-          display: block;
-          color: white;
-          text-align: center;
-          padding: 14px 16px;
-          text-decoration: none;
-          margin: center;
-        }
-
-        li a:hover {
-          background-color: #111;
-        }
-
-        .inicio {
-          background-color: #420606;
-
-        }
-
-        /* Conteúdos dos links do menu */
-        #sobre {
-          background-color: #420606;
-        }
-
-        #catalogo {
-          background-color: #420606;
-        }
-
-        #avaliacoes {
-          background-color: #420606;
-
-        }
-        /* Fim dos conteúdos dos links do menu */
-      </style>
-    </head>
-    <div id="menu">
-      <ul class="menu">
-        <li><a class="inicio" href="index.php">Inicio</a></li>
-        <li id="catalogo"><a href="?pg=catalogos">Catálogo</a></li>
-        <li id="sobre"><a href="?pg=sobre">Sobre mim</a></li>
-        <li id="avaliacoes"><a href="?pg=avaliacoes">Fale conosco</a></li>
-      </ul>
+    </style>
+</head>
+<body>
+    <div class="cabeçalho">
+<img src="logo5.png" alt="Logo Doce Appetit">
     </div>
-  </div>
-<div>
-  <img class="img" src="imagens4/1.png" alt="Imagem">
-  <img class="img" src="imagens4/2.png" alt="Imagem">
-  <img class="img" src="imagens4/3.png" alt="Imagem">
-  <img class="img" src="imagens4/4.png" alt="Imagem">
-  <img class="img" src="imagens4/5.png" alt="Imagem">
-  <img class="img" src="imagens4/6.png" alt="Imagem">
-  <img class="img" src="imagens4/7.png" alt="Imagem">
-</div> 
 </body>
+
+</body>
+</html>
+<div class="menu">
+    <a href="index.php">Início</a>
+    <a href="?pg=catalogos">Catálogos</a>
+    <a href="?pg=fazermeupedido">Fazer meu pedido</a>
+    <a href="?pg=avaliacoes"> Avaliações</a>
+</div>
+
+<style>
+    /* Estilizar o MENU */
+     body {
+        font-family: "Roboto";  
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu {
+        background-color: rgb(95, 25, 25);
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .menu a {
+        color: white;
+        font-family: "Roboto";
+        text-decoration: none; /* tira o sublinhado dos links*/
+        margin: 20px;
+        font-size: 20px;
+        text-transform: uppercase;
+        padding-right: 30px; /*espaço à direita da linha */
+        border-right: 1px solid white; /* Adicione uma borda direita para a linha vertical */
+    }
+
+    .menu a:hover {
+        text-decoration: underline;
+    }
+
+    .menu a:last-child {
+    border-right: none; /* Remove a borda do último link */
+    }
+    </style>
+    <style>
+        /* Estilo para formatar as imagens */
+        .img {
+            display: block; /* Garante que cada imagem esteja em sua própria linha */
+            max-width: 100%; /* Faz com que as imagens ocupem toda a largura disponível */
+            margin: 0 auto; /* Centraliza horizontalmente cada imagem */
+        }
+    </style>
+</head>
+<body><div class= "img">
+    <?php
+    $dir = "imagens4"; // Diretório das imagens
+    $files = scandir($dir); // Obtém a lista de arquivos na pasta
+
+    // Exibe as imagens
+    foreach ($files as $file) {
+        echo '<img src="' . $dir . '/' . $file . '" alt="Imagem">';
+    }
+    ?>
+</body>
+    </div>
 </html>
