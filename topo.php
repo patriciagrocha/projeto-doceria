@@ -15,7 +15,7 @@
 </head>
 <body>
     <div class="cabeçalho">
-        <img src="logo5.png" alt="Logo Doce Appetit">
+        <img src="imgs/logonova1.png" alt="Logo Doce Appetit">
     </div>
 </body>
 </html>
