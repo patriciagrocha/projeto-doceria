@@ -1,102 +1,70 @@
 <div>
-
-
-
 <head>
-
   <style>
-
+/* Estilos do menu */
 .menu {
-/*tudo do menu, configuração geral*/
-  height: 100px; /*altura do topo*/
-
-  list-style-type: none; /*remover contador de numeros da lista*/
-
-  margin-top: 0; /*espaço entre limite de cima e o topo*/
-
-  padding: 10; /*altura do topo*/
-
+  height: 100px;
+  list-style-type: none;
+  margin-top: 0;
   overflow: hidden;
-
   background-color: #601616;
-
 }
 
-
-
-li {
-/*itens da lista (opções do menu)*/
+.menu li {
   float: right;
   margin-top: 25px;
   text-align: center;
-
 }
 
-
-
-li a {
-/*links dentro dos itens da lista*/
+.menu li a {
   display: block;
-
   color: white;
-
   text-align: center;
-
   padding: 14px 16px;
-
   text-decoration: none;
-
   margin-right: 50px;
-
 }
 
-
-
-li a:hover:not(.active) {
-
+.menu li a:hover:not(.active) {
   background-color: #111;
   border-radius: 50px;
 }
 
-
-
-.active {
-
+.menu .active {
   background-color: #601616;
-
 }
 
-   .logo{/*configuração da foto da logo no topo*/
-    width: 300px;
-    height: 100px;
-    overflow: hidden;
-    margin-top: 0;
-    margin-left: 0;
-   }
-/*conteudos dos links do menu*/
-  #inicio{
-    background-color: #420606;
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
+.menu .logo {
+  width: 300px;
+  height: 100px;
+  overflow: hidden;
+  margin-top: 0;
+  margin-left: 0;
+}
 
-  }
-  #sobre{
-    background-color: #420606;
+/* Conteúdos específicos dos links do menu */
+#inicio {
+  background-color: #420606;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
 
-  }
-  #catalogo{
-      background-color: #420606;
+#sobre {
+  background-color: #420606;
+}
 
-  }
-  #avaliacoes{
-      background-color: #420606;
-      border-top-right-radius: 50px;
-      border-bottom-right-radius: 50px;
+#catalogo {
+  background-color: #420606;
+}
 
-  }
+#avaliacoes {
+  background-color: #420606;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
   /*fim dos conteudos dos links do menu*/
   </style>
-
 </head>
 <div id="menu">
     <ul class="menu">
@@ -109,9 +77,4 @@ li a:hover:not(.active) {
 
     </ul>
 </div>
-
-
-
-
-
 </div>
