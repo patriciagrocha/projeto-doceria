@@ -32,6 +32,7 @@
       flex: 1;
       margin: -5px;
       text-align: center;
+      
     }
 
     .prod img {
@@ -39,16 +40,6 @@
       margin: center;
       border-radius: 50%;
       margin-top: 50px;
-    }
-
-    #BotaoCatalogo {
-      /* Botão escrito "acesse nosso catálogo" */
-      color: #480707;
-      background: #DECAB9;
-      margin-left: 44%;
-      margin-bottom: 5px;
-      text-align: center;
-      border: none;
     }
 
     #bolotopo1 {
@@ -65,7 +56,8 @@
       font-family: "Roboto"; 
       max-width: 500px;
       text-align: center;
-      background-color: #F5E1E1; /* Mesma cor de fundo para o texto */
+      color: white;
+      background-color: #C0757D; /* Mesma cor de fundo para o texto */
       padding: 10px; /* Ajuste o espaçamento interno para diminuir a distância entre o conteúdo e os limites do container */
       margin-top: 10px; /* Margem superior */
       margin-bottom: 10px; /* Margem inferior */
@@ -83,9 +75,9 @@
 <body>
   <div class="container">
     <!-- Imagem "bolotopo1" e texto ao lado -->
-    <img id="bolotopo1" src="imgs/hq720 1.png" alt="Imagem de boas-vindas">
+    <img id="bolotopo1" src="imgs/bolorapha4.jpg" alt="Imagem de boas-vindas">
     <div class="texto-ao-lado">
-      <h1 class="especialidade">Bem-vindo à<br> Doce Appetit</h1>
+      <h1>Bem-vindo à<br> Doce Appetit</h1>
       <p>
         Seja bem-vindo à Doce Appetit! <br>Aqui, oferecemos uma variedade deliciosas de criações feitas de forma personalizadas para você.
       </p>
@@ -98,20 +90,20 @@
   <!-- Produto 1 -->
   <div class="produto">
     <span class="prod">
-      <img src="imgs/IMG-20231108-WA0016.jpg" title="Ovo de páscoa">
-      <p style = "font-size: 24px;"> Bolos Personalizados</p>
+      <img src="imgs/bolog.jpg" title="Bolo">
+      <p style = "font-size: 26px; margin-bottom: 100px; font-weight: 600;"> Bolos Personalizados</p>
     </span>
 
     <!-- Produto 2 -->
     <span class="prod">
-      <img src="imgs/IMG-20231108-WA0017.jpg" title="Bolo">
-      <p style="font-size: 24px"> Doces Gourmet</p>
+      <img src="imgs/brigadeiros1.jpg" title="brigadeiros">
+      <p style="font-size: 26px; font-weight: 600;"> Doces Gourmet</p>
     </span>
 
     <!-- Produto 3 -->
     <span class="prod">
-      <img src="imgs/IMG-20231108-WA0018.jpg" title="Brigadeiros">
-      <p style="font-size: 24px"> Produtos Sazonais</p>
+      <img src="imgs/ovos.jpg" title="ovos">
+      <p style="font-size: 26px; font-weight: 600;"> Produtos<br> Sazonais...</p>
     </span>
   </div>
 </body>
