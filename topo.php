@@ -5,11 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         /* Estilo para formatar as imagens */
+        body, ul{
+            padding: 0;
+            margin: 0;
+        }
         .cabeçalho {
-            display: block; /* Garante que cada imagem esteja em sua própria linha */
-            width: 1521px;
+            display: block;
+            width: 1485px;
             height: 200PX;
-            background-color: #601616;
             }
     </style>
 </head>
