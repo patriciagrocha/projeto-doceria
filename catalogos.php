@@ -5,17 +5,21 @@
     <style>
         /* Estilos para o título */
         .catalog-main h1 {
-            font-size: 40px; 
+            font-size: 42px; 
             color: rgb(96, 25, 25); 
             font-family: "Roboto";
             margin-bottom: 20px; /* Define a margem inferior */
             text-align: center; /* Centraliza o texto */
         }
-        .p {
-            margin-left: 40px;
-            margin-right: 40px;
-            font-size: 23px; /* Define o tamanho da fonte para 23 pixels */
-            padding-bottom: 10px; /* Define o preenchimento inferior como 10 pixels */
+        .p { /* texto fora dos containers*/
+            font-family: "Roboto";
+            font-size: 24px;
+            color: #111;
+            text-align: center;
+            max-width: 950px;
+            margin: 30px auto; /* Margem superior e inferior de 30px, e margens laterais automáticas para centralizar */
+            background-color: #F5E1E1;
+            padding: 20px; /* Adiciona preenchimento ao redor do texto */
         }
 
         /* Estilos para o container */
@@ -26,8 +30,9 @@
             margin-left: auto;
             margin-right: auto;
             margin-top: 50px;
-            margin-bottom: 100px;
+            margin-bottom: 50px;
             max-width: 1200px;
+            background-color: #FCF7F7;
         }
 
         .container img {
@@ -38,9 +43,12 @@
             margin-right: -150px;
         }
 
+        /*estilo para o texto dos containers*/
         .container .text {
             max-width: 400px;
             margin-left: -150px;
+            padding: 20px;
+            font-size:20px;
         }
 
         /* Estilos para os links dentro dos containers */
@@ -51,6 +59,7 @@
             border-radius: 50px;
             list-style-type: none; /* Remove os marcadores dos links */
             padding: 8px 16px;
+            font-size: 20px;
         }
 
         .container a:hover {
@@ -73,30 +82,28 @@
         </div>
     </div>
 
-    <!-- Primeiro container com foto e texto (Seção superior) -->
+    <!-- Primeiro container-->
     <div class="container">
         <img src="imgs\IMG-20231108-WA0017.jpg">
         <div class="text">
-            <h1 class="especialidade">Bolos Personalizados</h1>
-            <p>O Bolo é ponto alto de toda festa, é ele quem vai fechar com chave de ouro o evento que você planejou com todo carinho. Ele também vai transmitir à seus convidados a sua personalidade, através do sabor e da decoração que refletem o seu gosto. Pensando nisso, a Doce Appetit preparou um catálogo com mais de 20 combinações diferentes para você escolher</p>
+            <h2 class="especialidade">Bolos Personalizados</h2>
+            <p>É ele quem vai fechar com chave de ouro o evento que você planejou com todo carinho. Ele vai transmitir à seus convidados a sua personalidade através do sabor e da decoração que refletem o seu gosto. Pensando nisso, a Doce Appetit preparou um catálogo com mais de 20 combinações diferentes para você escolher</p>
             <ul>
                 <li><a href="catalogo1.php">Catálogo de Bolos Personalizados</a></li>
             </ul>
         </div>
     </div>
 
-    <!-- Segundo container com foto e texto (Seção inferior) -->
+    <!-- Segundo container -->
     <div class="container">
         <img src="imgs/IMG-20231108-WA0018.jpg">
         <div class="text">
-            <h1 class="especialidade">Doces Gourmet</h1>
-            <p>Os famosos "docinhos de festa" fazem toda a diferença nos nossos momentos especiais. Nós trabalhamos com um avariedade dos mehlores Doces Gourmet para lhe oferecer a meklhor experiencia, desde brigadeiro tradicional até doces personalzados </p>
+            <h2 class="especialidade">Doces Gourmet</h2>
+            <p>Os famosos "docinhos de festa" fazem toda a diferença nos nossos momentos especiais. Por trabalhamos com um avariedade dos melhores Doces Gourmet para lhe oferecer uma experiencia memorável, desde o brigadeiro tradicional até doces personalizados com o seu gosto! </p>
             <ul>
                 <li><a href="catalogo2.php">Catálogo de Doces Gourmet</a></li>
             </ul>
         </div>
     </div>
-
-    <!-- Conteúdo existente -->
 </body>
 </html>
