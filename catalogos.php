@@ -10,6 +10,7 @@
             font-family: "Roboto";
             margin-bottom: 20px; /* Define a margem inferior */
             text-align: center; /* Centraliza o texto */
+            text-shadow: 2px 2px 3px #F5E1E1; /* Adiciona uma sombra suave */
         }
         .p { /* texto fora dos containers*/
             font-family: "Roboto";
@@ -19,7 +20,9 @@
             max-width: 950px;
             margin: 30px auto; /* Margem superior e inferior de 30px, e margens laterais automáticas para centralizar */
             background-color: #F5E1E1;
-            padding: 20px; /* Adiciona preenchimento ao redor do texto */
+            border: 2px solid rgb(96, 25, 25); /* Adiciona uma borda de cor vinho */
+            padding: 10px; /* Adiciona um preenchimento interno para a borda */
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
         }
 
         /* Estilos para o container */
@@ -39,7 +42,7 @@
             border-radius: 50%;
             max-width: 100%; /* Ajusta a largura máxima da imagem para 100% */
             height: auto; /* Permite que a altura seja ajustada proporcionalmente à largura */
-            max-height: 200px; /* Define a altura máxima da imagem */
+            max-height: 250px; /* Define a altura máxima da imagem */
             margin-right: -150px;
         }
 
@@ -84,7 +87,7 @@
 
     <!-- Primeiro container-->
     <div class="container">
-        <img src="imgs\IMG-20231108-WA0017.jpg">
+        <img src="imgs\boloc.jpg">
         <div class="text">
             <h2 class="especialidade">Bolos Personalizados</h2>
             <p>É ele quem vai fechar com chave de ouro o evento que você planejou com todo carinho. Ele vai transmitir à seus convidados a sua personalidade através do sabor e da decoração que refletem o seu gosto. Pensando nisso, a Doce Appetit preparou um catálogo com mais de 20 combinações diferentes para você escolher</p>
@@ -96,7 +99,7 @@
 
     <!-- Segundo container -->
     <div class="container">
-        <img src="imgs/IMG-20231108-WA0018.jpg">
+        <img src="imgs/brigadeiros1.jpg">
         <div class="text">
             <h2 class="especialidade">Doces Gourmet</h2>
             <p>Os famosos "docinhos de festa" fazem toda a diferença nos nossos momentos especiais. Por trabalhamos com um avariedade dos melhores Doces Gourmet para lhe oferecer uma experiencia memorável, desde o brigadeiro tradicional até doces personalizados com o seu gosto! </p>
