@@ -17,7 +17,7 @@
         }
 
         .select, input[type="text"], input[type="tel"], textarea {
-            width: 1500px;
+            width: 1480px;
             padding: 10px;
             margin-bottom: 15px;
             border: 1px solid #ccc;
@@ -32,18 +32,6 @@
             resize: vertical;
             height: 70px;
         }
-
-        .input[type="submit"] {
-            background-color: #007bff;
-            color: #fff;
-            border: none;
-            padding: 10px 20px;
-            cursor: pointer;
-        }
-
-        .input[type="submit"]:hover {
-            background-color: #0056b3;
-        }
         
     </style>
 </head>
@@ -52,10 +40,10 @@
         <div class="body"><h1>Deixe aqui a sua Avaliação:</h1></div>
         <form action="sucesso.php" method="post">
             <label for="nome">Seu Nome:</label>
-            <input type="text" id="nome" name="nome" required>
+            <input type="text" id="nome" name="nome" required><br>
 
             <label for="contato">Número de Contato:</label>
-            <input type="tel" id="contato" name="contato" required>
+            <input type="tel" id="contato" name="contato" required><br>
 
             <label for="indicacao">Você indicaria nossos serviçoes para um amigo?</label><br>
             <input type="radio" id="sim" name="indicacao" value="sim" required>
@@ -67,7 +55,18 @@
             <label for="detalhes">Por favor, nos conte o que achou do nosso atendimento e no que podemos melhorar:</label>
             <textarea id="detalhes" name="detalhes"></textarea>
 
-            <input type="submit" value="Enviar Pedido" style= "background-color:rgb(96, 25, 25); color:white; margin-left:10px">
+            <input type="submit" value="Enviar Avaliação" 
+       style="background-color: #4CAF50; 
+              color: #fff; 
+              border: none; 
+              padding: 10px 20px; 
+              cursor: pointer; 
+              margin-left: 10px; 
+              margin-bottom: 20px;"
+       onmouseover="this.style.backgroundColor='#45a049'"
+       onmouseout="this.style.backgroundColor='#4CAF50'">
+
+
         </form>
     </div>
 </body>
