@@ -1,6 +1,5 @@
 <?php 
 include "config.inc.php";
-include_once("../topo.php");
 ?>
 <?php session_start(); ?>
 
@@ -17,6 +16,9 @@ include_once("../topo.php");
     <main>
     <?php if (isset($_SESSION['ativa'])) { ?>
         <div class="text-center mt-5">
+        <section class="container-admin-banner">
+    <img src="./img/logo.png"class="logo-admin" alt="logo-doceappetit">
+    <div class="login-doce">
             <h1>Painel Administrativo </h1>
         </div>
         <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-center mt-5">
