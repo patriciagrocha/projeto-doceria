@@ -16,14 +16,13 @@ include_once("../topo.php");
 <body>
     <main>
     <?php if (isset($_SESSION['ativa'])) { ?>
-        <div class="text-center">
-            <h1>Painel Administrativo do site</h1>
-            <h2>Lista de Produtos</h2>
-    </div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="text-center mt-5">
+            <h1>Painel Administrativo </h1>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-center mt-5">
             <div>
                 <a class="navbar-brand" href="index.php">Painel</a>
-                <a class="navbar-brand" href="users.php">Gerenciar Usuários</a>
+                <a class="navbar-brand" href="users.php"> Usuários</a>
                 <a class="navbar-brand" href="logout.php">Sair</a>
             </div>
         </nav>
