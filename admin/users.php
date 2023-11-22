@@ -1,6 +1,5 @@
 <?php session_start(); 
 require_once "function.php";
-include_once("../topo.php");
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -14,13 +13,16 @@ include_once("../topo.php");
 <body>
     <?php if (isset($_SESSION['ativa'])){ ?>
        <div class="text-center">
-         <h1>Painel Administrativo do site</h1>
-         <h2>Gerenciador de Usuários</h2>
+       <section class="container-admin-banner">
+    <img src="./img/logo.png"class="logo-admin" alt="logo-doceappetit">
+    <div class="login-doce">
+         <br><h1>Painel Administrativo</h1></br>
+         <h3>Gerenciador de Usuários</h3>
        </div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+       <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-center mt-5">
             <div>
                 <a class="navbar-brand" href="index.php">Painel</a>
-                <a class="navbar-brand" href="users.php">Gerenciar Usuários</a>
+                <a class="navbar-brand" href="users.php">Usuários</a>
                 <a class="navbar-brand" href="logout.php">Sair</a>
             </div>
         </nav>
@@ -41,9 +43,8 @@ include_once("../topo.php");
         if ($_SESSION['id'] !=$_POST['id']){
             deletar($connect, "usuarios", $_POST ['id']); 
         }else {
-            Echo "Você não pode deletar seu próprio usuário
-                  Atualize a página!";
-            header("Location: users.php"); 
+            Echo "Você não pode deletar seu próprio usuário";
+              header("Location: users.php"); 
             exit();
         }
     }
