@@ -83,7 +83,7 @@ body{
     width: 100%;
     margin: auto; /* Centralizar a div */
     align-items: stretch; /* Esticar os itens para preencher a altura */
-    padding: 40px 10px 10px 0px; /* Preenchimento: topo, direita, inferior, esquerda, respectivamente */
+    padding: 40px 0; /* Preenchimento: topo, direita, inferior, esquerda, respectivamente */
 }
 
 /*estilos para as colunas do rodapé*/

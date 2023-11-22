@@ -21,15 +21,16 @@ include "config.inc.php";
         $consulta = mysqli_query($conexao, $sql);
         ?>
 
-        <div class="card">
+        <div >
 
             <?php
 
             while ($dados = mysqli_fetch_array($consulta)) {
 
             ?>
-
+            <h2>Alterar Produto</h2>
                 <form action="alterardb.php" method="post">
+
                     <input type="hidden" name="id" value="<?= $dados['id']; ?>">
                     <table class="m-4 " >
                         <tr>
