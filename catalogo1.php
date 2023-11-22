@@ -7,7 +7,7 @@
       <style>
         .menu {
           /* Tudo do menu, configuração geral */
-          height: 50px; /* Altura do topo */
+          height: 70px; /* Altura do topo */
           width: 100%;
           list-style-type: none; /* Remover contador de números da lista */
           margin-top: 0; /* Espaço entre limite de cima e o topo */
@@ -29,31 +29,31 @@
           display: block;
           color: white;
           text-align: center;
-          padding: 14px 16px;
+          padding: 22px 24px;
           text-decoration: none;
           margin: center;
         }
 
         li a:hover {
-          background-color: #111;
+          background-color: #420606;
         }
 
         .inicio {
-          background-color: #420606;
+          background-color: #601616;
 
         }
 
         /* Conteúdos dos links do menu */
         #sobre {
-          background-color: #420606;
+          background-color: #601616;
         }
 
         #catalogo {
-          background-color: #420606;
+          background-color: #601616;
         }
 
         #avaliacoes {
-          background-color: #420606;
+          background-color: #601616;
 
         }
         /* Fim dos conteúdos dos links do menu */

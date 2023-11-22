@@ -5,13 +5,15 @@
     /*cor de fundo de toda a pagina*/
     body {
       background-color: #F8F8F8;/*off-white*/
+      background-image: url("imgs/image\ 3.png");
+
     }
 
     .container {
       display: flex;
       align-items: center;
       justify-content: center;
-      background-color: #F5E1E1;
+      background-color: #601616;
       padding: 20px; /* espaçamento interno */
       margin-top: 50px; /* Margem superior */
       margin-bottom: 10px; /* Margem inferior */
@@ -57,7 +59,7 @@
       max-width: 500px;
       text-align: center;
       color: white;
-      background-color: #C0757D; /* Mesma cor de fundo para o texto */
+      background-color: #601616; /* Mesma cor de fundo para o texto */
       padding: 10px; /* Ajuste o espaçamento interno para diminuir a distância entre o conteúdo e os limites do container */
       margin-top: 10px; /* Margem superior */
       margin-bottom: 10px; /* Margem inferior */

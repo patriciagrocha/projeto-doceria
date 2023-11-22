@@ -12,13 +12,14 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            background-image: url("imgs/image\ 3.png");
         }
 
         #form-container {
             max-width: 800px;
             margin: 50px auto;
             padding: 20px;
-            background-color: #F5E1E1;
+            background-color: white;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }

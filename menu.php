@@ -3,7 +3,7 @@
     <style>
       .menu {
         /* Tudo do menu, configuração geral */
-        height: 50px; /* Altura do topo */
+        height: 70px; /* Altura do topo */
         width: 100%;
         list-style-type: none; /* Remover contador de números da lista */
         margin-top: 0; /* Espaço entre limite de cima e o topo */
@@ -25,7 +25,7 @@
         display: block;
         color: white;
         text-align: center;
-        padding: 14px 16px;
+        padding: 22px 24px;
         text-decoration: none;
         margin: center;
       }
