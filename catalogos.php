@@ -87,7 +87,11 @@
 
     <!-- Primeiro container-->
     <div class="container">
+<<<<<<< HEAD
         <img src="imgs\boloc.jpg">
+=======
+        <img src="imgs/bolog.jpg">
+>>>>>>> develop
         <div class="text">
             <h2 class="especialidade">Bolos Personalizados</h2>
             <p>É ele quem vai fechar com chave de ouro o evento que você planejou com todo carinho. Ele vai transmitir à seus convidados a sua personalidade através do sabor e da decoração que refletem o seu gosto. Pensando nisso, a Doce Appetit preparou um catálogo com mais de 20 combinações diferentes para você escolher</p>

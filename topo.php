@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,15 +10,15 @@
             margin: 0;
         }
         .cabeçalho {
-            display: block;
-            width: 1485px;
+            display: block;           
             height: 200PX;
+            background-color: #601616;
             }
     </style>
 </head>
 <body>
     <div class="cabeçalho">
-        <img src="imgs/logonova1.png" alt="Logo Doce Appetit">
+        <img  width="100%" height="100%" src="imgs/logonova1.png" alt="Logo Doce Appetit">
     </div>
 </body>
 </html>
