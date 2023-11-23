@@ -84,7 +84,7 @@
 
     <!-- Primeiro container-->
     <div class="container">
-        <img src="imgs/bolog.jpg">
+        <img src="imgs/home/bolog.jpg">
         <div class="text">
             <h2 class="especialidade">Bolos Personalizados</h2>
             <p>É ele quem vai fechar com chave de ouro o evento que você planejou com todo carinho. Ele vai transmitir à seus convidados a sua personalidade através do sabor e da decoração que refletem o seu gosto. Pensando nisso, a Doce Appetit preparou um catálogo com mais de 20 combinações diferentes para você escolher</p>
@@ -96,7 +96,7 @@
 
     <!-- Segundo container -->
     <div class="container">
-        <img src="imgs/brigadeiros1.jpg">
+        <img src="imgs/home/brigadeiros1.jpg">
         <div class="text">
             <h2 class="especialidade">Doces Gourmet</h2>
             <p>Os famosos "docinhos de festa" fazem toda a diferença nos nossos momentos especiais. Por trabalhamos com um avariedade dos melhores Doces Gourmet para lhe oferecer uma experiencia memorável, desde o brigadeiro tradicional até doces personalizados com o seu gosto! </p>

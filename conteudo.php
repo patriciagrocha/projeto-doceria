@@ -75,7 +75,7 @@
 <body>
   <div class="container">
     <!-- Imagem "bolotopo1" e texto ao lado -->
-    <img id="bolotopo1" src="imgs/bolorapha4.jpg" alt="Imagem de boas-vindas">
+    <img id="bolotopo1" src="imgs/home/bolorapha4.jpg" alt="Imagem de boas-vindas">
     <div class="texto-ao-lado">
       <h1>Bem-vindo à<br> Doce Appetit</h1>
       <p>
@@ -90,19 +90,19 @@
   <!-- Produto 1 -->
   <div class="produto">
     <span class="prod">
-      <img src="imgs/bolog.jpg" title="Bolo">
+      <img src="imgs/home/bolog.jpg" title="Bolo">
       <p style = "font-size: 26px; margin-bottom: 100px; font-weight: 600;"> Bolos Personalizados</p>
     </span>
 
     <!-- Produto 2 -->
     <span class="prod">
-      <img src="imgs/brigadeiros1.jpg" title="brigadeiros">
+      <img src="imgs/home/brigadeiros1.jpg" title="brigadeiros">
       <p style="font-size: 26px; font-weight: 600;"> Doces Gourmet</p>
     </span>
 
     <!-- Produto 3 -->
     <span class="prod">
-      <img src="imgs/ovos.jpg" title="ovos">
+      <img src="imgs/home/ovos.jpg" title="ovos">
       <p style="font-size: 26px; font-weight: 600;"> Produtos<br> Sazonais...</p>
     </span>
   </div>

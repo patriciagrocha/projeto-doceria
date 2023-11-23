@@ -41,6 +41,9 @@
         background-color: #420606;
         
       }
+      .img{
+        width: 100%;
+      }
 
       /* Conteúdos dos links do menu */
       #sobre {
@@ -69,10 +72,10 @@
 </div>
 <body>
     <div>
-    <img class="img" src="imagens5/1.png" alt="Imagem">
-    <img class="img" src="imagens5/2.png" alt="Imagem">
-    <img class="img" src="imagens5/3.png" alt="Imagem">
-    <img class="img" src="imagens5/4.png" alt="Imagem">
+    <img class="img" src="imgs/catalogo2/1.png" alt="Imagem">
+    <img class="img" src="imgs/catalogo2/2.png" alt="Imagem">
+    <img class="img" src="imgs/catalogo2/3.png" alt="Imagem">
+    <img class="img" src="imgs/catalogo2/4.png" alt="Imagem">
   </div>
 </body>
 </html>
