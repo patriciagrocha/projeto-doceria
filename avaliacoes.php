@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +7,8 @@
     <style>
         body {
             font-family: "Roboto", sans-serif;
-            background-color: #FCF7F7;
+            background-image: url("imgs/sobre/image3.png");
+            background-color: #F8F8F8;/*off-white*/
             color: rgb(96, 25, 30);
             margin: 0;
             padding: 0;

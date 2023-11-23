@@ -4,6 +4,7 @@
   <style>
     /*cor de fundo de toda a pagina*/
     body {
+      background-image: url("imgs/sobre/image3.png");
       background-color: #F8F8F8;/*off-white*/
     }
 

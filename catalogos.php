@@ -3,6 +3,10 @@
 <head>
     <title>Meus Catálogos</title>
     <style>
+        body{
+            background-image: url("imgs/sobre/image3.png");
+            background-color: #F8F8F8;/*off-white*/
+        }
         /* Estilos para o título */
         .catalog-main h1 {
             font-size: 42px; 
