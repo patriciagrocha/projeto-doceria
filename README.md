@@ -42,13 +42,13 @@ $ git clone https://github.com/patriciagrocha/projeto-doceria
 
 <br>Após completar a instalação do Xampp em sua máquina, mova a pasta projeto-doceria para dentro da pasta htdocs, dentro da pasta de instalação do Xampp.</br>
 <br>O caminha deverá ser semelhante a esse:</br>
-<img src="imgs/imgread/Captura de tela 2023-11-18 124647.png" width="800" alt="caminho"/>
+<img src="imgs/readme/Captura de tela 2023-11-18 124647.png" width="800" alt="caminho"/>
 
 #### 3º Passo: Iniciar o Apache e o MySQL. Após isso, clicar no "Admin" do MySQL
 <img src= "imgs/imgread/acessar o phpmyadmin e startar apache e mysql.png" width="800" alt="Acessar o phpmyadmin e startar apache e mysql/>
 
 #### 4º Passo: Você será redirecionado para página phpmyadmin e lá irá criar um banco de dados chamado "projetodoceria
-<img src= "imgs/imgread/Captura de tela 2023-11-18 125740.png" width="800" alt="Criação do banco de dados"/>
+<img src= "imgs/readme/Captura de tela 2023-11-18 125740.png" width="800" alt="Criação do banco de dados"/>
 
 #### 5º Passo: Criar uma tabela chamada "produtos" com 4 campos
 #### 6º Passo: Os campos da tabela ‘’produtos” conterão os seguintes nomes e tipos:
@@ -56,7 +56,7 @@ $ git clone https://github.com/patriciagrocha/projeto-doceria
 <br>-> produto – text (30)</br>
 <br>-> descricao – text (200)</br>
 <br>-> preco – float</br>
-<img src= "imgs/imgread/tabelaprodutos.png" width="800" alt="Tabela produto"/>
+<img src= "imgs/readme/tabelaprodutos.png" width="800" alt="Tabela produto"/>
 <br>-> AO FINAL APERTAR EM SALVAR!!</br>
 
 #### 7º Passo: Agora que temos um banco de dados e a tabela de produtos. Iremos criar 1 usuário ADMIN, através dele você irá conseguirá acessar o painel de administração pela página de login</br>
@@ -68,12 +68,12 @@ $ git clone https://github.com/patriciagrocha/projeto-doceria
 <br>-> cpf - varchar(11)</br>
 <br>-> data_cadastro - date</br>
 <br>-> senha - varchar(50)</br>
-<img src= "imgs/imgread/tabelausuarios.png" width="800" alt="tabela usuario"/>
+<img src= "imgs/readme/tabelausuarios.png" width="800" alt="tabela usuario"/>
 
 <br>-> AO FINAL APERTAR EM SALVAR!!</br>
 
 #### 10º Passo: O primeiro usuário deverá ser cadastrado da seguinte forma:
-<img src= "imgs/imgread/inserirusuario.png" width="800" alt="Inserir usuario"/>
+<img src= "imgs/readme/inserirusuario.png" width="800" alt="Inserir usuario"/>
 <br>P.S. Obrigatoriamente, deverá ser selecionado SHA1 na coluna de função referente à senha.</br>
 
 
@@ -82,7 +82,7 @@ $ git clone https://github.com/patriciagrocha/projeto-doceria
 <br>-> nome - varchar(30)</br>
 <br>->contato - int(12)</br>
 <br>->detalhes - text</br>
-<img src= "imgs/imgread/Captura de tela 2023-11-22 105356.png" width="800" alt="tabela formulario"/>
+<img src= "imgs/readme/Captura de tela 2023-11-22 105356.png" width="800" alt="tabela formulario"/>
 <br>-> AO FINAL APERTAR EM SALVAR!!</br>
 
 #### 13º Passo: Após o cadastro, o primeiro usuário conseguirá acessar o painel administrativo através do e-mail e senha cadastrados no banco:
