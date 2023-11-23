@@ -6,6 +6,7 @@
             background-image: url("imgs/sobre/image3.png");
             margin-bottom: 20px;
             font-family: Arial, sans-serif;
+            
         }
 
         #toposobre {
@@ -16,7 +17,7 @@
         .container {
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-around;
+            justify-content: space-evenly;
             padding-top: 50px;
             align-items: center;
             max-width: 1400px; /* Aumente conforme necessário */
@@ -24,24 +25,22 @@
         }
 
         .item {
-            width: 600px;
+            width: 500px;
             margin-bottom: 20px;
         }
 
-        #grazi1,
-        #grazi2 {
+        #grazi1, #grazi2 {
             width: 400px;
-            display: block;
-            margin-bottom: 10px;
+            display: block;         
             margin-bottom: 30px;
         }
-
         .text {
             max-width: 100%; /* Ajusta para ocupar 100% da largura do .item */
             font-size: 26px;
             margin-top: 30px;
             font-family: 'Roboto';
         }
+       
     </style>
 </head>
 <body>
