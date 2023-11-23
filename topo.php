@@ -18,7 +18,7 @@
 </head>
 <body>
     <div class="cabeçalho">
-        <img  width="100%" height="100%" src="imgs/logonova1.png" alt="Logo Doce Appetit">
+        <img  width="100%" height="100%" src="imgs/home/logonova1.png" alt="Logo Doce Appetit">
     </div>
 </body>
 </html>

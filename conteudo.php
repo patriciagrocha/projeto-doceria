@@ -5,15 +5,13 @@
     /*cor de fundo de toda a pagina*/
     body {
       background-color: #F8F8F8;/*off-white*/
-      background-image: url("imgs/image\ 3.png");
-
     }
 
     .container {
       display: flex;
       align-items: center;
       justify-content: center;
-      background-color: #601616;
+      background-color: #F5E1E1;
       padding: 20px; /* espaçamento interno */
       margin-top: 50px; /* Margem superior */
       margin-bottom: 10px; /* Margem inferior */
@@ -59,7 +57,7 @@
       max-width: 500px;
       text-align: center;
       color: white;
-      background-color: #601616; /* Mesma cor de fundo para o texto */
+      background-color: #C0757D; /* Mesma cor de fundo para o texto */
       padding: 10px; /* Ajuste o espaçamento interno para diminuir a distância entre o conteúdo e os limites do container */
       margin-top: 10px; /* Margem superior */
       margin-bottom: 10px; /* Margem inferior */
@@ -77,7 +75,7 @@
 <body>
   <div class="container">
     <!-- Imagem "bolotopo1" e texto ao lado -->
-    <img id="bolotopo1" src="imgs/bolorapha4.jpg" alt="Imagem de boas-vindas">
+    <img id="bolotopo1" src="imgs/home/bolorapha4.jpg" alt="Imagem de boas-vindas">
     <div class="texto-ao-lado">
       <h1>Bem-vindo à<br> Doce Appetit</h1>
       <p>
@@ -92,19 +90,19 @@
   <!-- Produto 1 -->
   <div class="produto">
     <span class="prod">
-      <img src="imgs/bolog.jpg" title="Bolo">
+      <img src="imgs/home/bolog.jpg" title="Bolo">
       <p style = "font-size: 26px; margin-bottom: 100px; font-weight: 600;"> Bolos Personalizados</p>
     </span>
 
     <!-- Produto 2 -->
     <span class="prod">
-      <img src="imgs/brigadeiros1.jpg" title="brigadeiros">
+      <img src="imgs/home/brigadeiros1.jpg" title="brigadeiros">
       <p style="font-size: 26px; font-weight: 600;"> Doces Gourmet</p>
     </span>
 
     <!-- Produto 3 -->
     <span class="prod">
-      <img src="imgs/ovos.jpg" title="ovos">
+      <img src="imgs/home/ovos.jpg" title="ovos">
       <p style="font-size: 26px; font-weight: 600;"> Produtos<br> Sazonais...</p>
     </span>
   </div>

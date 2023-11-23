@@ -7,7 +7,7 @@
       <style>
         .menu {
           /* Tudo do menu, configuração geral */
-          height: 70px; /* Altura do topo */
+          height: 50px; /* Altura do topo */
           width: 100%;
           list-style-type: none; /* Remover contador de números da lista */
           margin-top: 0; /* Espaço entre limite de cima e o topo */
@@ -29,31 +29,34 @@
           display: block;
           color: white;
           text-align: center;
-          padding: 22px 24px;
+          padding: 14px 16px;
           text-decoration: none;
           margin: center;
         }
 
         li a:hover {
-          background-color: #420606;
+          background-color: #111;
         }
 
         .inicio {
-          background-color: #601616;
+          background-color: #420606;
 
+        }
+        .img{
+          width: 100%;
         }
 
         /* Conteúdos dos links do menu */
         #sobre {
-          background-color: #601616;
+          background-color: #420606;
         }
 
         #catalogo {
-          background-color: #601616;
+          background-color: #420606;
         }
 
         #avaliacoes {
-          background-color: #601616;
+          background-color: #420606;
 
         }
         /* Fim dos conteúdos dos links do menu */
@@ -69,13 +72,13 @@
     </div>
   </div>
 <div>
-  <img class="img" src="imagens4/1.png" alt="Imagem">
-  <img class="img" src="imagens4/2.png" alt="Imagem">
-  <img class="img" src="imagens4/3.png" alt="Imagem">
-  <img class="img" src="imagens4/4.png" alt="Imagem">
-  <img class="img" src="imagens4/5.png" alt="Imagem">
-  <img class="img" src="imagens4/6.png" alt="Imagem">
-  <img class="img" src="imagens4/7.png" alt="Imagem">
+  <img class="img" src="imgs/catalogo1/1.png" alt="Imagem">
+  <img class="img" src="imgs/catalogo1/2.png" alt="Imagem">
+  <img class="img" src="imgs/catalogo1/3.png" alt="Imagem">
+  <img class="img" src="imgs/catalogo1/4.png" alt="Imagem">
+  <img class="img" src="imgs/catalogo1/5.png" alt="Imagem">
+  <img class="img" src="imgs/catalogo1/6.png" alt="Imagem">
+  <img class="img" src="imgs/catalogo1/7.png" alt="Imagem">
 </div> 
 </body>
 </html>
